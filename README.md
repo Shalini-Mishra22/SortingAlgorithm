@@ -20,7 +20,7 @@ A Sorting Visualizer web application that demonstrates various sorting algorithm
 
 ## Live Demo
 
-You can try the live demo of the Sorting Visualizer 
+You can try the live demo of the Sorting Visualizer https://shalini-mishra22.github.io/SortingAlgorithm/
 
 
 
