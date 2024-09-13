@@ -1,0 +1,111 @@
+
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+#definition{
+  font-size: 24px;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+ 
+  
+}
+p,h2{
+  line-height: 1.6;
+  margin: 15px ;
+  text-align: center;
+   
+    font-family: 'proxima-nova','Open Sans',sans-serif;
+}
+h2{
+  text-align: center;
+}
+img{
+  height: 400px;
+  margin: 10px;
+}
+#container{
+    
+    height: 300px;
+    display: flex;
+    align-items:flex-end;
+}
+.bar {
+    width: 40px;
+    background-color: rgb(73, 119, 120);
+    margin: 2px;
+
+
+}
+button {
+    margin: 20px;
+    outline: none;
+    border:2px;
+  }
+
+  
+  @media only screen and (max-width: 600px) {
+    #container{
+      height: 180px;
+    }
+ 
+    .bar {
+        width: 20px;
+        background-color: rgb(241, 58, 58);
+        margin: 1px;
+    
+    
+    }
+    button {
+      color: rgb(236, 223, 223);
+        margin: 10px;
+        outline: none;
+      }
+    h1{
+        font-size:26px;
+    }
+    p{
+      font-size: 18px;
+      text-align:justify;
+    }
+    img{
+      height: 180px;
+      width: 300px;
+    }
+  }
+  /* General button styling */
+button {
+  background-color: #7fdcf9; /* Green background */
+  border: none; /* Remove borders */
+  color: rgb(29, 28, 26); /* White text */
+  padding: 15px 32px; /* Padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Align buttons horizontally */
+  font-size: 16px; /* Text size */
+  margin: 4px 2px; /* Margin around buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #971355; /* Darker green background */
+  transform: scale(1.05); /* Slightly increase button size */
+}
+
+/* Button active effect */
+button:active {
+  background-color: #dcf0ee; /* Even darker green */
+  transform: scale(0.95); /* Slightly decrease button size */
+}
+
+
+
+
+
