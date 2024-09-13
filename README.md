@@ -10,7 +10,9 @@ A Sorting Visualizer web application that demonstrates various sorting algorithm
 - Visualize popular sorting algorithms:
   - Bubble Sort
   - selectio Sort
-  - Insertion Sort (you can add more algorithms)
+  - Insertion Sort
+  - Merge Sort
+  - Quick Sort 
 
 - Random array generation: Users can generate a new random array to sort.
 
@@ -18,7 +20,7 @@ A Sorting Visualizer web application that demonstrates various sorting algorithm
 
 ## Live Demo
 
-You can try the live demo of the Sorting Visualizer [here](https://kishor-23.github.io/sorting-visualizer/).
+You can try the live demo of the Sorting Visualizer 
 
-## Screenshots
+
 
